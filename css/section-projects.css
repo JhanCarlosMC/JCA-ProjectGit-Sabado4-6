@@ -1,0 +1,23 @@
+#container-projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+#container-projects img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#container-projects .card-project{
+    background-color: var(--color-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+#container-projects .card-project:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    transform: translateY(-10px);
+}

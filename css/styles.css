@@ -24,7 +24,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: var(--color-text);
-    background-color: var(--color-bg);
+    /* background-color: red; */
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .container {
@@ -40,12 +45,12 @@ body {
 }
 
 .section-container:nth-child(even){
-    background-color: var(--color-bg-altern);
+    /* background-color: var(--color-bg-altern); */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .section-container:nth-child(odd){
-    background-color: rgb(212, 212, 212);
+    /* background-color: rgb(212, 212, 212); */
 }
 
 .container h2{

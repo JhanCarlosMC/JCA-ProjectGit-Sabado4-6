@@ -1,0 +1,22 @@
+.saludo-container{
+    max-width: 400px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.saludo-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.saludo-parraph{
+    font-size: 18px;
+    margin-bottom: 10px;
+}

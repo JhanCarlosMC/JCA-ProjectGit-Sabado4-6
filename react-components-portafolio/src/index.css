@@ -1,0 +1,28 @@
+:root {
+    --color-text: #000;
+    --color-text-altern: #fff;
+    --color-text-hover: #1100ff;
+
+    /*Convencion*/
+    --color-bg: rgb(237, 237, 237);
+    --color-bg-altern: rgb(255, 255, 255);
+    --color-bg-header: #000;
+}
+
+/* Config Base - Reset Content */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: var(--color-text);
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

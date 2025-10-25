@@ -1,21 +1,20 @@
+import './styles/Header.css'
+
 function Header(){
-    const headerStyle = {
-        border: '1px solid #000',
-        borderRadius: '15px',
-        backgroundColor: '#000',
-        color: '#fff',
-        padding: '10px',
-        margin: '10px',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-    }
 
     return(
-        <header style= {headerStyle}>
-            <h1>Encabezado de la Aplicacion!</h1>
-            <p>Descripcion de la Aplicacion</p>
-        </header>
+    <header id="header">
+        <div className="container">
+            <h1>Portafolio</h1>
+            <nav>
+                <a href="#section-aboutme">Sobre Mí</a>
+                <a href="#section-projects">Proyectos</a>
+                <a href="#section-blog">Blog</a>
+                <a href="#section-references">Referencias</a>
+                <a href="#section-contact">Contacto</a>
+            </nav>
+        </div>
+    </header>
     )
 }
 

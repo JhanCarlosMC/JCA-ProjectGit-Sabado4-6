@@ -4,7 +4,10 @@ const app = express();
 const port = 3000;
 app.use(express.json());
 
-const URL_DB = "mongodb+srv://jcmcAdminBD:passadminbd@clusterjc.4u4bk64.mongodb.net/?retryWrites=true&w=majority&appName=ClusterJC";
+
+// const URL_DB = "mongodb+srv://jcmc_userAdmin:12345@clusterjc2025.mjrlhdf.mongodb.net/?appName=ClusterJC2025";
+const URL_DB = "mongodb+srv://jacobogarcesoquendo:aFJzVMGN3o7fA38A@cluster0.mqwbn.mongodb.net/JhanCarlosMC";
+
 
 mongoose.connect(URL_DB)
     .then(() => 
